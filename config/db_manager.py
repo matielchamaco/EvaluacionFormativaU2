@@ -1,7 +1,7 @@
 import sqlite3
 from typing import List, Optional
 # Importamos las clases definidas anteriormente
-from entidades import Empleado, Departamento
+from models.entidades import Empleado, Departamento
 
 class DatabaseManager:
     """Clase encargada de gestionar la conexión y operaciones CRUD en SQLite de manera segura."""

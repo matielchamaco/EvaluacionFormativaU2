@@ -1,5 +1,5 @@
-from db_manager import DatabaseManager
-from main_view import MenuApp
+from config.db_manager import DatabaseManager
+from views.main_view import MenuApp
 
 if __name__ == "__main__":
     # 1. Inicializar la base de datos de la empresa

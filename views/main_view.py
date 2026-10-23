@@ -1,8 +1,8 @@
 import sys
 # Importación de clases previas
-from entidades import Empleado, Departamento
-from db_manager import DatabaseManager
-from input_helpers import leer_entero, leer_flotante, leer_texto
+from models.entidades import Empleado, Departamento
+from config.db_manager import DatabaseManager
+from helper.input_helpers import leer_entero, leer_flotante, leer_texto
 
 class MenuApp:
     """Controla el flujo de navegación del sistema de gestión por consola."""
